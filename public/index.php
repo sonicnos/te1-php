@@ -4,10 +4,16 @@ if (isset($_GET["p"])) {
 
   switch ($_GET["p"]) {
     case "geo":
+      include "../templates/inc/banniere.php";
+      include "../templates/inc/menu.php";
+      include "../templates/geographie.php";
       $title = "Geographie";
       $section = "../templates/geographie.php";
       break;
     case "hist":
+      include "../templates/inc/banniere.php";
+      include "../templates/inc/menu.php";
+      include "../templates/histoire.php";
       $title = "Histoire";
       $section = "../templates/histoire.php";
       break;

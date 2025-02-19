@@ -139,3 +139,9 @@ body {
   line-height: 50px;
   text-align: center;
 }
+
+.geo .header {
+  background-color: aqua;
+  height: 1000px;
+  background-image: url(../img/geographie.png);
+}
