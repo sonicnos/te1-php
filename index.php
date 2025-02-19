@@ -1,7 +1,3 @@
-<?php
-include './public/index.php';
-?>
-
 <!DOCTYPE html>
 <html lang="fr">
 

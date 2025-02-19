@@ -1,9 +1,19 @@
+:root {
+  --main-bg-color: #87cbf2;
+  --secondary-bg-color: #5a86a0;
+  --font-color: rgb(104, 103, 103);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
   list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
@@ -29,8 +39,103 @@ body {
   line-height: 80px;
   height: 80px;
   width: 300px;
+  font-size: 2rem;
+  font-weight: 500;
   border-radius: 30px;
-  background-color: #87cbf2;
+  background-color: var(--main-bg-color);
   text-transform: uppercase;
   opacity: 75%;
+}
+
+.nav-bar {
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 2px solid var(--secondary-bg-color);
+  height: 50px;
+  background-color: var(--main-bg-color);
+  /* 
+  TODO
+  make a position sticky 
+  */
+}
+
+.nav-bar ul {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.nav-bar ul li {
+  color: rgb(73, 72, 72);
+  font-weight: 600;
+}
+
+.nav-bar ul li:hover {
+  background: var(--secondary-bg-color);
+}
+
+.nav-bar ul li a {
+  width: 160px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar ul li a:visited {
+  color: rgb(104, 103, 103);
+}
+
+.home {
+  background-color: var(--secondary-bg-color);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.home .header,
+.home .description,
+.home .source {
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.home .header img {
+  height: 200px;
+}
+
+.home h1 {
+  text-align: center;
+  background-color: var(--main-bg-color);
+  font-style: italic;
+  font-size: 24px;
+  color: var(--font-color);
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+.home .description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: start;
+}
+
+.geo {
+  background-color: var(--secondary-bg-color);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.geo h1 {
+  text-align: center;
+  background-color: var(--main-bg-color);
+  font-style: italic;
+  font-size: 24px;
+  color: var(--font-color);
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }

@@ -1,5 +1,8 @@
-<nav>
+<nav class="nav-bar">
   <ul>
+    <li>
+      <a href="./">Acceuil</a>
+    </li>
     <li>
       <a href="/?p=geo">Geographie</a>
     </li>
@@ -8,9 +11,6 @@
     </li>
     <li>
       <a href="/?p=cult">Culture</a>
-    </li>
-    <li>
-      <a href="./">Acceuil</a>
     </li>
     <li>
       <a href="/?p=gal">Galerie</a>
