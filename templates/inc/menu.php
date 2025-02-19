@@ -5,5 +5,5 @@
   <a href="/?p=cult">Culture</a>
   <a href="/?p=gal">Galerie</a>
   <a href="/?p=form">Contact</a>
-  <a href="/?p=link"></a>
+  <a href="/?p=link">Liens</a>
 </nav>
