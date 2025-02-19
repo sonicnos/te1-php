@@ -13,7 +13,11 @@ include './public/index.php';
 </head>
 
 <body>
-  <?php include "./templates/inc/menu.php" ?>
+  <?php
+  include "./templates/inc/banniere.php";
+  include "./templates/inc/menu.php";
+  ?>
+
   <?php include $section ?>
   <script src="/public/js/script.js"></script>
 </body>
