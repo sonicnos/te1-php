@@ -99,9 +99,11 @@ body {
 .home,
 .hist,
 .geo,
-.cult {
+.cult,
+.gal,
+.form {
   background-color: var(--secondary-bg-color);
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -116,7 +118,9 @@ body {
 .hist .source,
 .cult .header,
 .cult .description,
-.cult .source {
+.cult .source,
+.gal .description,
+.form .header {
   text-align: center;
   padding: 20px 30px;
 }
@@ -128,7 +132,9 @@ body {
 .home h1,
 .geo h1,
 .hist h1,
-.cult h1 {
+.cult h1,
+.gal h1,
+.form h1 {
   text-align: center;
   background-color: var(--main-bg-color);
   font-style: italic;
@@ -175,4 +181,33 @@ body {
 .cult .description .thea,
 .cult .description .art-cult {
   margin-bottom: 20px;
+}
+
+.gal .galerie {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px auto;
+  grid-template-areas:
+    "photo3  photo2  photo1"
+    ".       .       .";
+}
+
+.galerie img {
+  border: 2px solid black;
+  padding: 5px;
+  max-height: 350px;
+  width: 100%;
+}
+
+.galerie figcaption {
+  text-align: center;
+  font-size: 18px;
+}
+
+#photo1 {
+  grid-area: photo1;
+}
+
+#photo3 {
+  grid-area: photo3;
 }

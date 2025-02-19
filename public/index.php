@@ -27,10 +27,16 @@ if (isset($_GET["p"])) {
     case "gal":
       $title = "Galerie";
       $section = "../templates/galerie.php";
+      include "../templates/inc/banniere.php";
+      include "../templates/inc/menu.php";
+      include "../templates/galerie.php";
       break;
     case "form":
       $title = "Contact";
       $section = "../templates/contact.php";
+      include "../templates/inc/banniere.php";
+      include "../templates/inc/menu.php";
+      include "../templates/contact.php";
       break;
     case "link":
       $title = "Liens";
