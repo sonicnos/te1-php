@@ -12,25 +12,17 @@
   <section class="geo">
     <h1>De sa fondation par Gustave Vasa à son statut de capitale finlandaise</h1>
     <div class="header">
-
+      <img src="img/geographie.png" alt="">
     </div>
-    <p>Helsinki fut fondé sous le nom d'Helsingfors, en 1550, par Gustave Vasa, roi de Suède dans le but de concurrencer Reval (actuellement Tallinn, la capitale d’Estonie), alors ville hanséatique florissante. Le premier village d'Helsinki se situait alors dans le quartier encore appelé Vanhakaupunki (qui signifie en français : Vieille ville), une plaque commémorative indiquant l'emplacement de la première église et du premier cimetière. L'urbanisation récente se traduit en particulier par l'importance des noms de lieux et de quartiers liés à des particularités naturelles et géographiques, comme Koskela (les rapides), Katajanokka (Presqu'île du Genévrier), etc.
-
-      La ville fut incendiée et occupée par les Russes en guerre contre les Suédois pendant la Grande guerre du Nord entre 1713 et 1721, et de nouveau en 1742. Fortifier la ville devint donc une priorité pour se défendre des occupations. La forteresse maritime de Sveaborg (actuellement Suomenlinna en finnois) est construite entre 1748 et 1798, avec l'appui du roi de France Louis XV.
-
-      Après la défaite de la Suède dans sa guerre contre la Russie de 1808-1809, la Finlande est annexée à l'Empire russe. Helsingfors devint le 8 avril 18125 alors la capitale d'un grand-duché autonome, à la place de Turku, jugée trop proche géographiquement et sentimentalement de la Suède. La ville connaît dès lors un développement considérable, le centre-ville est reconstruit selon les plans de Carl Ludwig Engel, l'université de Turku est déplacée vers la nouvelle capitale et deviendra l'université d'Helsinki.
-
-      Pendant la guerre de Crimée, la forteresse de Sveaborg est en partie détruite par une expédition franco-anglaise.
-
-      Contrairement à Tampere, Helsingfors a subi relativement peu de dégâts pendant la guerre civile finlandaise. Après la victoire des blancs, de nombreux ex-rouges ont été mis dans des camps de prisonniers, le plus grand camp avait quelque 13 300 prisonniers et était situé sur l'île forteresse de Sveaborg. Bien que la guerre civile ait laissé une cicatrice considérable dans la société, le niveau de vie dans le pays et la ville a commencé à s'améliorer dans la décennie suivante. Des architectes renommés, comme Eliel Saarinen ont créé des plans pour la ville, mais ils n'ont jamais été pleinement réalisés.
-
-      En 1917, à l'indépendance de la Finlande, Helsinki devient le nouveau nom officiel de la ville qui est aussi capitale de la nouvelle république.
-
-      Durant la guerre d'Hiver puis durant la guerre de Continuation, la ville subit plusieurs bombardements de la part de l'aviation soviétique6 mais la défense antiaérienne se révèle efficace et les dégâts relativement limités.
-
-      En 1975, la Conférence sur la sécurité et la coopération en Europe (CSCE) adopta à Helsinki l’Acte final de son premier sommet.
-
-      La place du Sénat (Senaatintori) au centre de la ville témoigne encore de ces liens avec la Russie avec une statue du tsar Alexandre II devant la cathédrale et la ressemblance des bâtiments avec la ville de Saint-Pétersbourg et ainsi la ville fut souvent utilisée pour des tournages de cinéma, à l'époque de la guerre froide, afin de représenter l'ancienne capitale impériale, notamment dans des James Bond, du fait de cette ressemblance.</p>
+    <div class="description">
+      <p>Construite sur une presqu'île entourée de quelque 330 îles, la ville est fortement caractérisée par la présence de l'eau. La remontée des terres due au phénomène d'isostasie fait que certains lieux autrefois occupés par la mer sont aujourd'hui urbanisés, comme l'ancienne baie du quartier de Kluuvi.</p>
+      <p>La commune d'Helsinki s'étale sur des baies, des péninsules et des îles plus ou moins grandes. Le secteur du centre-ville occupe une péninsule au sud de la commune, ce qui est rarement mentionné par son nom réel "Vironniemi". La densité de la population dans certaines parties du centre-ville d'Helsinki est très élevée, atteignant jusqu'à 16 494 habitants au kilomètre carré dans le quartier de Kallio, mais la densité de population dans l'ensemble d'Helsinki est de 3 050 habitants au kilomètre carré.</p>
+      <p>Elle est classée comme très peu peuplée en comparaison à d'autres capitales européennes comme Paris, Moscou, Londres ou encore Berlin. Une grande partie d'Helsinki se situe en dehors du centre-ville et se compose de quartiers d'après-guerre séparés les uns des autres par des îlots de forêts.</p>
+      <p>La commune comprend une superficie totale de 715,55 km2, dont seulement 213 km2 de superficie terrestre.</p>
+      <p>Le climat d'Helsinki est de type continental tempéré par le Gulf stream et la proximité de la mer. Les températures hivernales y sont relativement élevées compte tenu de la latitude, avec des moyennes d'environ −5 °C en janvier et février. La moyenne des maximales de juin à août oscille quant à elle entre 19 et 21 °C. Les records de température enregistrés sont de 33,2 °C le 28 juillet 20199 et de -35 °C le 10 janvier 1987.</p>
+      <p>En 2012, la commune d'Helsinki comptait 602 200 habitants (10,8 % de la population de la Finlande), la région capitale (avec Espoo, Vantaa et Kauniainen) compte 1 050 819 d’habitants (19,2 % de la population finlandaise) et le Grand Helsinki, regroupant treize communes compte 1 344 757 d’habitants. La population d'Helsinki est essentiellement de langue finnoise (84,3 %) avec une minorité suédophone importante (6,1 %)</p>
+      <p>La ville a la plus forte population immigrée de la Finlande en termes tant absolus que relatifs. Il y a plus de 130 nationalités résidentes dans la ville d'Helsinki. Les communautés les plus importantes sont les Russes, les Estoniens, les Suédois, mais aussi un nombre important de Somaliens, de Serbes, de Chinois, d'Indiens, d'Irakiens et d'Allemands.</p>
+    </div>
   </section>
 </body>
 

@@ -1,7 +1,9 @@
 :root {
-  --main-bg-color: #87cbf2;
-  --secondary-bg-color: #5a86a0;
+  --main-bg-color: #a90331;
+  --secondary-bg-color: lightgrey;
   --font-color: rgb(104, 103, 103);
+  --font-secondary: rgb(65, 60, 60);
+  --color-menu: #a90331;
 }
 
 * {
@@ -39,10 +41,11 @@ body {
   line-height: 80px;
   height: 80px;
   width: 300px;
-  font-size: 2rem;
-  font-weight: 500;
   border-radius: 30px;
-  background-color: var(--main-bg-color);
+  background-color: beige;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
   opacity: 75%;
 }
@@ -50,9 +53,9 @@ body {
 .nav-bar {
   border-radius: 10px;
   margin: 10px 0;
-  border: 2px solid var(--secondary-bg-color);
+  border: 2px solid black;
   height: 50px;
-  background-color: var(--main-bg-color);
+  background-color: #ccc;
   /* 
   TODO
   make a position sticky 
@@ -72,23 +75,31 @@ body {
   font-weight: 600;
 }
 
-.nav-bar ul li:hover {
-  background: var(--secondary-bg-color);
-}
-
 .nav-bar ul li a {
   width: 160px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+}
+.nav-bar ul li:hover {
+  background: var(--color-menu);
 }
 
 .nav-bar ul li a:visited {
-  color: rgb(104, 103, 103);
+  color: black;
 }
 
-.home {
+.nav-bar ul li a:hover,
+.nav-bar ul li a:visited:hover {
+  color: white;
+}
+
+.home,
+.hist,
+.geo,
+.cult {
   background-color: var(--secondary-bg-color);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
@@ -96,7 +107,16 @@ body {
 
 .home .header,
 .home .description,
-.home .source {
+.home .source,
+.geo .header,
+.geo .description,
+.geo .source,
+.hist .header,
+.hist .description,
+.hist .source,
+.cult .header,
+.cult .description,
+.cult .source {
   text-align: center;
   padding: 20px 30px;
 }
@@ -105,43 +125,54 @@ body {
   height: 200px;
 }
 
-.home h1 {
+.home h1,
+.geo h1,
+.hist h1,
+.cult h1 {
   text-align: center;
   background-color: var(--main-bg-color);
   font-style: italic;
   font-size: 24px;
-  color: var(--font-color);
+  color: white;
   height: 50px;
   line-height: 50px;
   text-align: center;
 }
 
-.home .description {
+.home .description,
+.geo .description,
+.hist .description {
   display: flex;
   flex-direction: column;
   gap: 10px;
   text-align: start;
 }
 
-.geo {
-  background-color: var(--secondary-bg-color);
-  border-radius: 10px 10px 0px 0px;
-  overflow: hidden;
-}
-
-.geo h1 {
-  text-align: center;
-  background-color: var(--main-bg-color);
-  font-style: italic;
-  font-size: 24px;
-  color: var(--font-color);
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-}
-
 .geo .header {
-  background-color: aqua;
-  height: 1000px;
-  background-image: url(../img/geographie.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 592px;
+  width: 100%;
+}
+
+.cult .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cult .description .arch,
+.cult .description .thea,
+.cult .description .art-cult {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: start;
+}
+
+.cult .description .arch,
+.cult .description .thea,
+.cult .description .art-cult {
+  margin-bottom: 20px;
 }

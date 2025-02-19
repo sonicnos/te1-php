@@ -4,11 +4,11 @@ if (isset($_GET["p"])) {
 
   switch ($_GET["p"]) {
     case "geo":
+      $title = "Geographie";
+      $section = "../templates/geographie.php";
       include "../templates/inc/banniere.php";
       include "../templates/inc/menu.php";
       include "../templates/geographie.php";
-      $title = "Geographie";
-      $section = "../templates/geographie.php";
       break;
     case "hist":
       include "../templates/inc/banniere.php";
@@ -20,6 +20,9 @@ if (isset($_GET["p"])) {
     case "cult":
       $title = "Culture";
       $section = "../templates/culture.php";
+      include "../templates/inc/banniere.php";
+      include "../templates/inc/menu.php";
+      include "../templates/culture.php";
       break;
     case "gal":
       $title = "Galerie";
@@ -38,9 +41,9 @@ if (isset($_GET["p"])) {
       $section = "../templates/page-404.php";
   }
 } else {
+  $title = "Acceuil";
+  $section = "../templates/accueil.php";
   include "../templates/inc/banniere.php";
   include "../templates/inc/menu.php";
   include "../templates/accueil.php";
-  $title = "Acceuil";
-  $section = "../templates/accueil.php";
 }
