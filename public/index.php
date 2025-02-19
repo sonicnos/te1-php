@@ -41,6 +41,9 @@ if (isset($_GET["p"])) {
     case "link":
       $title = "Liens";
       $section = "../templates/liens.php";
+      include "../templates/inc/banniere.php";
+      include "../templates/inc/menu.php";
+      include "../templates/liens.php";
       break;
     default:
       $title = "Error 404";

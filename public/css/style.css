@@ -101,7 +101,8 @@ body {
 .geo,
 .cult,
 .gal,
-.form {
+.form,
+.link {
   background-color: var(--secondary-bg-color);
   border-radius: 10px;
   overflow: hidden;
@@ -120,7 +121,12 @@ body {
 .cult .description,
 .cult .source,
 .gal .description,
-.form .header {
+.form .header,
+.form h2,
+.form .form-section,
+.link h2,
+.link .header,
+.link .links {
   text-align: center;
   padding: 20px 30px;
 }
@@ -134,7 +140,8 @@ body {
 .hist h1,
 .cult h1,
 .gal h1,
-.form h1 {
+.form h1,
+.link h1 {
   text-align: center;
   background-color: var(--main-bg-color);
   font-style: italic;
@@ -210,4 +217,41 @@ body {
 
 #photo3 {
   grid-area: photo3;
+}
+
+.form .form-section .label-input {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.form-section input {
+  width: 400px;
+}
+
+.form-section button {
+  height: 50px;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links .container {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.links a {
+  color: var(--color-menu);
 }

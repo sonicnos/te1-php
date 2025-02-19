@@ -15,27 +15,31 @@
       <div class="header">
         <img src="img/contacts.jpg" alt="contact-img">
       </div>
-      <form>
-        <div>
-          <label>NOM :</label>
-          <input type="text">
+      <h2>Pour nous laisser un commentaire ou pour obtenir un renseignement complémentaire, remplissez le formulaire ci-dessous :</h2>
+      <form class="form-section">
+        <div class="label-input">
+          <div>
+            <label>NOM :</label>
+            <input type="text">
+          </div>
+          <div>
+            <label>PRENOM :</label>
+            <input type="text">
+          </div>
+          <div>
+            <label>VILLE :</label>
+            <input type="text">
+          </div>
+          <div>
+            <label>E-MAIL :</label>
+            <input type="text">
+          </div>
+          <div>
+            <label>COMMENTAIRES :</label>
+            <input type="text">
+          </div>
         </div>
-        <div>
-          <label>PRENOM :</label>
-          <input type="text">
-        </div>
-        <div>
-          <label>VILLE :</label>
-          <input type="text">
-        </div>
-        <div>
-          <label>E-MAIL :</label>
-          <input type="text">
-        </div>
-        <div>
-          <label>COMMENTAIRES :</label>
-          <input type="text">
-        </div>
+        <button class=".btn">Envoyer votre message</button>
       </form>
     </section>
   </section>
