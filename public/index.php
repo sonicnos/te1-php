@@ -25,7 +25,7 @@ if (isset($_GET["p"])) {
       break;
     case "form":
       $title = "Contact";
-      $section = "../templates/contact.php";
+      include "../templates/contact.php";
       break;
     case "link":
       $title = "Liens";
