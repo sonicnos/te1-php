@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <?php include "../templates/inc/banniere.php"; ?>
+  <?php include "../templates/inc/menu.php"; ?>
   <section>
     <section class="link">
       <h1>Quelques liens vers nos partenaires.</h1>

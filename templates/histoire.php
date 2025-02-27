@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <?php include "../templates/inc/banniere.php"; ?>
+  <?php include "../templates/inc/menu.php"; ?>
   <section class="hist">
     <h1>Une Ville de Concurrence, de Fortifications et de Renaissance</h1>
     <div class="header">

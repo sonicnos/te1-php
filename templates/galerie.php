@@ -10,6 +10,8 @@
 </head>
 
 <body>
+  <?php include "../templates/inc/banniere.php"; ?>
+  <?php include "../templates/inc/menu.php"; ?>
   <section class="gal">
     <h1>Galerie Photo</h1>
 

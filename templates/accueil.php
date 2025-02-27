@@ -10,6 +10,9 @@
 
 <body>
 
+  <?php include "../templates/inc/banniere.php"; ?>
+  <?php include "../templates/inc/menu.php"; ?>
+
   <section class="home">
     <h1>Bienvenue sur notre site consacré à Helsinki.</h1>
     <div class="header">

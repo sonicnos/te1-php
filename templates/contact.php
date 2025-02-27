@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <?php include "../templates/inc/banniere.php"; ?>
+  <?php include "../templates/inc/menu.php"; ?>
   <section>
     <section class="form">
       <h1>Pour nous contacter</h1>

@@ -9,6 +9,8 @@
 </head>
 
 <body>
+  <?php include "../templates/inc/banniere.php"; ?>
+  <?php include "../templates/inc/menu.php"; ?>
   <section class="cult">
     <h1>Art et culture</h1>
     <div class="header">

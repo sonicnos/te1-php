@@ -19,6 +19,7 @@ a {
 }
 
 body {
+  position: relative;
   height: 100vh;
   width: 1280px;
   margin: 0 auto;
@@ -56,10 +57,8 @@ body {
   border: 2px solid black;
   height: 50px;
   background-color: #ccc;
-  /* 
-  TODO
-  make a position sticky 
-  */
+  position: sticky;
+  top: 0px;
 }
 
 .nav-bar ul {
